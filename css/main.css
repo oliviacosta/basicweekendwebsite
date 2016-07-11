@@ -15,20 +15,16 @@ h1 {
 /*	border: 1pt solid black;*/
 	margin: 0 auto;
 	width: 75%;
+	align-items: center;
 }
 content {
 	display: inline-block;
 	border-style: outset;
-/*	position: absolute;*/
 	width: 100%;
-	margin: 3% 0 3% 0;
 	overflow: hidden;
 }
 div.column {
-	width: 30%;
+	width: 48%;
 	float: left;
-	margin: 1.5%;
-}
-div.caption {
-	padding: 0 2.5% 2.5% 2.5%;
+	margin: 1%;
 }
