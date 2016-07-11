@@ -10,7 +10,37 @@ h1 {
 	font-weight: bolder;
 	color: #555555;
 }
-
+img.main {
+	width: 100%;
+	height: auto;
+	margin: auto auto 3% auto;
+	display: block;
+	border: outset;
+	border-radius: 5px;
+}
+#pizzaWrap {
+  	shape-outside: ellipse(50% 50% at 50% 50%);
+  	transition: shape-outside 1s;
+  	width: 40%;
+	height: auto;
+	float: left;
+	margin: 0 10px 0 0;
+}
+/*#pizzaWrap:hover {
+  	shape-outside: ellipse(50% 50% at 50% 50%);
+  	width: 20%;
+  	height: auto;
+	float: left;
+	margin: 5px 10px 0 0;  	
+}*/
+img.floatLeft {
+	width: 40%;
+	height: auto;
+	shape-outside: url(images/pizza.png);
+	shape-image-threshold: 0.5;
+	float: left;
+/*	margin: 10px;*/
+}
 #sectionWrap {
 /*	border: 1pt solid black;*/
 	margin: 0 auto;
@@ -19,12 +49,18 @@ h1 {
 }
 content {
 	display: inline-block;
-	border-style: outset;
+/*	border-style: outset;*/
 	width: 100%;
 	overflow: hidden;
+	line-height: 125%
 }
 div.column {
 	width: 48%;
 	float: left;
 	margin: 1%;
+	text-align: justify;
+}
+div.contentMargin {
+	padding: 3%;
+	margin: auto;
 }
